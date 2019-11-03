@@ -3,7 +3,16 @@ Creates randomly generated lists of sizes 3-8 to test students'
 selection sort and dual selection sort methods
 
 After the Main method, paste students' methods into the class
-and edit the method call lines (lines 56 and 72)
+and edit the method call lines (lines 65 and 81)
+
+HW5 Parts:
+1. Write a modified version of selection sortalgorithm that sorts an array 
+of Strings and selects the largest element each time and movies it to the 
+end of the array, rather than selecting the smallest element and moving it 
+to the beginning.
+2. Write a modified “dual” version of the selection sort algorithm that 
+sorts an array of integers and selects both the largest and smallest elements 
+on each pass and moves eacho f them to the appropriate end of the array.
 
 Most common method errors (for copy-paste): 
 Selection sort algorithm does not sort properly for all lists
