@@ -65,9 +65,7 @@ public class HW5_Tester {
 			selectionSort(words);
 			
 			// does standard sort of same list
-			Arrays.sort(words2, new Comparator<String>(){
-				public int compare(String s1,String s2){
-				    return s1.length() - s2.length(); }});
+			Arrays.sort(words2);
 			// compares the 2 sorted lists
 			System.out.print(Arrays.equals(words, words2) + " ");
 			
